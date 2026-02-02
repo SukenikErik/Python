@@ -1,0 +1,6 @@
+2024-05-22 10:01:05 INFO: Rendszer indítása...
+2024-05-22 10:02:10 ERROR: Adatbázis kapcsolat megszakadt!
+2024-05-22 10:03:15 INFO: Újrapróbálkozás...
+2024-05-22 10:04:20 CRITICAL: CPU túlmelegedés!
+2024-05-22 10:05:00 ERROR: API időtúllépés.
+2024-05-22 10:06:12 INFO: Felhasználó bejelentkezett.
