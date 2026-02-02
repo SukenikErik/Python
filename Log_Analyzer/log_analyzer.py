@@ -35,15 +35,13 @@ def log_szures_es_mentes():
             elif "CRITICAL" in sor.upper(): tipus = "CRITICAL"
             
             riport_fajl = os.path.join(mappa, f"{tipus}_riport.txt")
-            
-            # --- ELLENŐRZÉS: Benne van-e már a fájlban? ---
+
             mar_letezik = False
             if os.path.exists(riport_fajl):
                 with open(riport_fajl, "r", encoding="utf-8") as rf:
                     if sor in rf.read():
                         mar_letezik = True
-            
-            # --- MENTÉS: Csak ha még nincs benne ---
+
             if not mar_letezik:
                 with open(riport_fajl, "a", encoding="utf-8") as f:
                     f.write(sor + "\n")

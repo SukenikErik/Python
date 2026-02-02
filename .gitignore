@@ -1,3 +1,11 @@
-**/venv/
+venv/
+env/
+.env
 **/__pycache__/
+*.pyc
 *.db
+*.sqlite3
+*_riport.txt
+*.log
+.DS_Store
+Thumbs.db

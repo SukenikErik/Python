@@ -1,0 +1,40 @@
+{
+    "status": "STABIL",
+    "metadata": {
+        "platform": "Windows/Linux System Guard",
+        "measurements_count": 5,
+        "generated_at": "2026-02-03 00:26:43.853010"
+    },
+    "measurements": [
+        {
+            "cpu_percent": 3.3,
+            "memory_percent": 53.6,
+            "disk_free_gb": 131.15,
+            "timestamp": "2026-02-03 00:26:31"
+        },
+        {
+            "cpu_percent": 0.2,
+            "memory_percent": 53.7,
+            "disk_free_gb": 131.15,
+            "timestamp": "2026-02-03 00:26:34"
+        },
+        {
+            "cpu_percent": 0.4,
+            "memory_percent": 53.7,
+            "disk_free_gb": 131.15,
+            "timestamp": "2026-02-03 00:26:37"
+        },
+        {
+            "cpu_percent": 0.5,
+            "memory_percent": 53.8,
+            "disk_free_gb": 131.15,
+            "timestamp": "2026-02-03 00:26:40"
+        },
+        {
+            "cpu_percent": 1.2,
+            "memory_percent": 53.8,
+            "disk_free_gb": 131.15,
+            "timestamp": "2026-02-03 00:26:43"
+        }
+    ]
+}
